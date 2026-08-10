@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.2.1"
+  version: "0.3.0"
   python_min: "3.12"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/m/metriplane/metriplane-${{ version }}.tar.gz
-  sha256: 70a7038debe2226e95dcb25ee649195b8f1e223c180d0c2ef6fbfb7286d69ed4
+  sha256: 8df70c5253714890aaf97713a295ab66cca96fa0268104344a5b858b6053cb51
   patches:
     - use-conda-opencv-metadata.patch
 
